@@ -1,0 +1,128 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0%;
+}
+
+.bgimg {
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(132, 106, 221, 0.76), rgb(132, 106, 221)), url(../image/bg-01.jpg);
+	
+}
+
+.twocontaint {
+	height: 95%;
+	width: 85%;
+	background-color: white;
+	position: relative;
+	margin: auto;
+	top: 15px;
+	border-radius: 10px;
+
+}
+
+textarea {
+	margin-top: 23px;
+	border-radius: 25px;
+	background-color: #e6e6e6;
+	border: none;
+	outline: none;
+	padding-left: 40px;
+	padding-top: 20px;
+
+}
+
+input[type=text],
+mail  {
+	height: 48px;
+	width: 368px;
+	border-radius: 30px;
+	background-color: #e6e6e6;
+	border: none;
+	outline: none;
+	padding-left: 40px;
+}
+.smallimg {
+	height: 70%;
+	width: 40%;
+	float: left;
+	background-image: url(../image/img-01.png);
+	margin-top: 80px;
+}
+
+.form {
+	height: 95%;
+	width: 40%;
+	float: left;
+	margin-left: 180px;
+	margin-top: 20px;
+}
+
+.containt {
+	height: 80%;
+	width: 80%;
+	position: relative;
+	margin: auto;
+	top: 55px;
+	background-color: #ffffff;
+}
+
+h1 {
+	font-family: arial;
+	font-size: 28px;
+}
+
+.Email {
+	position: relative;
+	top: 10px;
+	border-color: white;
+
+
+}
+
+input[type=submit] {
+	background-color: #846add;
+	width: 100%;
+	height: 50px;
+	margin-top: 25px;
+	border-radius: 50px;
+	text-align: center;
+	border: none;
+	color: white;
+	font-size: 18px;
+	outline: none;
+
+}
+input[type=text]:focus{
+	border: 1px solid blue;
+}
+
+textarea:focus{
+		border: 1px solid blue;
+
+}
+input[type=submit]:hover {
+	background-color: #333333;
+}
+img {
+	position: absolute;
+	z-index: -1;
+	height: 625px;
+	width: 100%;
+}
+
+i {
+	position: absolute;
+	top: 0px;
+	padding: 16px;
+	color: #a6a6a6;
+}
+h3 i {
+	margin: 0;
+	position: absolute;
+	top: 87px;
+	
+}
+
